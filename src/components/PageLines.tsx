@@ -24,6 +24,7 @@ function PageLines() {
 
             return (
               <Box
+                key={i}
                 width={pxToRem(164)}
                 height="100%"
                 borderLeft={!isActive ? "none" : "2px"}
