@@ -2,7 +2,6 @@ import {
   AspectRatio,
   Box,
   BoxProps,
-  Button,
   Heading,
   Image,
   Text,
@@ -39,7 +38,13 @@ function ProductCard({ title, desc, bannerImg }: Props) {
           mt={pxToRem(24)}
           mb={pxToRem(32)}
         >
-          <Image src={bannerImg} width="100%" height="100%" objectFit="cover" />
+          <Image
+            alt="image"
+            src={bannerImg}
+            width="100%"
+            height="100%"
+            objectFit="cover"
+          />
         </AspectRatio>
 
         <Text

@@ -1,4 +1,4 @@
-import { Box, Container, Heading, Image, Stack } from "@chakra-ui/react";
+import { Heading, Stack } from "@chakra-ui/react";
 import BaseButton from "components/BaseButton";
 import StripeGradientLayout from "layouts/StripeGradientLayout";
 import React from "react";

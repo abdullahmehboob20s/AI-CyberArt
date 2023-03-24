@@ -31,6 +31,7 @@ function StripeGradientLayout({
       <Container {...containerProps}>{children}</Container>
 
       <Image
+        alt="image"
         src="images/whitepaper-stripes.svg"
         height="100%"
         position="absolute"

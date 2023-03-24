@@ -46,7 +46,7 @@ function PreSaleBox() {
       </Box>
 
       <Box mb={pxToRem(-60)}>
-        <Image src="images/presale-progress-bar.svg" width="100%" />
+        <Image alt="image" src="images/presale-progress-bar.svg" width="100%" />
 
         <Box
           position="absolute"
@@ -105,6 +105,7 @@ function PreSaleBox() {
       </BaseButton>
 
       <Image
+        alt="image"
         src="images/pre-sale-blob.svg"
         className="100%"
         position="absolute"

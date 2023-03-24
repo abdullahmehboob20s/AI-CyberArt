@@ -7,6 +7,7 @@ import Hero from "sections/Hero";
 import Presale from "sections/Presale";
 import Products from "sections/Products";
 import Whitepaper from "sections/Whitepaper";
+import React from "react";
 
 function Index() {
   return (

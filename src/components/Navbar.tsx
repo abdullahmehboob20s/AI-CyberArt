@@ -1,17 +1,7 @@
-import {
-  Box,
-  Button,
-  Container,
-  Image,
-  Link,
-  Stack,
-  Text,
-} from "@chakra-ui/react";
-import React, { useRef } from "react";
+import { Box, Container, Image, Link, Stack, Text } from "@chakra-ui/react";
+import React from "react";
 import NextLink from "next/link";
 import pxToRem from "utils/pxToRem";
-import Portal from "./Portal";
-import PageLines from "./PageLines";
 import BaseButton from "./BaseButton";
 import LineColumnsLayout from "layouts/LineColumnsLayout";
 
@@ -37,8 +27,6 @@ const NavLink = ({ title }: NavLinkProps) => {
 };
 
 function Navbar() {
-  const beforeLinksBox = useRef<HTMLDivElement>(null);
-
   return (
     <>
       <Box
@@ -50,7 +38,7 @@ function Navbar() {
         <Container>
           <LineColumnsLayout alignItems="center">
             <Stack direction="row" spacing={3} alignItems="center">
-              <Image src="images/logo.svg" width={pxToRem(60)} />
+              <Image alt="image" src="images/logo.svg" width={pxToRem(60)} />
               <Text fontWeight="bold" fontSize={pxToRem(20)}>
                 CyberPart
               </Text>

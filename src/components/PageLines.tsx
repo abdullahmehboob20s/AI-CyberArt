@@ -1,6 +1,6 @@
 import { Box, Container } from "@chakra-ui/react";
 import LineColumnsLayout from "layouts/LineColumnsLayout";
-import React, { MutableRefObject, useEffect, useState } from "react";
+import React from "react";
 import pxToRem from "utils/pxToRem";
 
 function PageLines() {

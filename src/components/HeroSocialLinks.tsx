@@ -1,10 +1,8 @@
 import { Box, Link, BoxProps, LinkProps } from "@chakra-ui/react";
-import React, { ReactElement, ReactNode } from "react";
-import { JsxElement } from "typescript";
+import React from "react";
 import pxToRem from "utils/pxToRem";
 import NextLink from "next/link";
 import pxToEm from "utils/pxToEm";
-import { BsTwitter } from "react-icons/bs";
 
 interface LinkData {
   link: string;

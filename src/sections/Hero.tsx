@@ -1,11 +1,4 @@
-import {
-  Box,
-  Button,
-  Container,
-  Heading,
-  Stack,
-  Image,
-} from "@chakra-ui/react";
+import { Box, Container, Heading, Stack, Image } from "@chakra-ui/react";
 import BaseButton from "components/BaseButton";
 import React from "react";
 import pxToRem from "utils/pxToRem";
@@ -27,7 +20,11 @@ function Hero() {
       >
         <LineColumnsLayout zIndex={10}>
           <Stack alignItems="center" gridColumn="1/2">
-            <Image src="images/hero-cicle-badge.svg" width={pxToRem(130)} />
+            <Image
+              alt="image"
+              src="images/hero-cicle-badge.svg"
+              width={pxToRem(130)}
+            />
           </Stack>
           <Box gridColumn="2/-1" pl={pxToRem(60)}>
             <Stack
@@ -82,6 +79,7 @@ function Hero() {
                 }}
                 leftIcon={
                   <Image
+                    alt="image"
                     src="images/coins.svg"
                     width={pxToEm(18)}
                     mr={pxToEm(4)}
@@ -95,14 +93,20 @@ function Hero() {
               </BaseButton>
             </Stack>
             <Stack alignItems="flex-end" width="50%">
-              <Image src="images/pointing-arrow.svg" />
+              <Image alt="image" src="images/pointing-arrow.svg" />
             </Stack>
 
-            <Image src="images/sound-lines.svg" width="50%" mt={pxToRem(30)} />
+            <Image
+              alt="image"
+              src="images/sound-lines.svg"
+              width="50%"
+              mt={pxToRem(30)}
+            />
           </Box>
         </LineColumnsLayout>
 
         <Image
+          alt="image"
           src="images/ai-girl.svg"
           position="absolute"
           bottom="0"

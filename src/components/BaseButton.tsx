@@ -1,5 +1,5 @@
-import { Button, PropsOf, ButtonProps, Box } from "@chakra-ui/react";
-import React, { FC, ReactElement } from "react";
+import { Button, ButtonProps, Box } from "@chakra-ui/react";
+import React, { FC } from "react";
 import pxToEm from "utils/pxToEm";
 import { HiOutlineArrowSmRight } from "react-icons/hi";
 import pxToRem from "utils/pxToRem";
@@ -9,7 +9,6 @@ interface ButtonType {
 }
 interface BaseButtonProps extends ButtonProps, ButtonType {}
 interface ButtonProp extends ButtonProps {}
-interface IconsButtonProps extends ButtonProps {}
 
 const SimpleButton: FC<ButtonProp> = ({ sx, ...props }) => {
   return (

@@ -1,17 +1,11 @@
-import { Box, Container, Heading, Image, Stack, Text } from "@chakra-ui/react";
+import { Box, Container, Heading, Stack } from "@chakra-ui/react";
 import BaseButton from "components/BaseButton";
 import ProductCard from "components/ProductCard";
 import ProductCards from "components/ProductCards";
 import ProductMainCard from "components/ProductMainCard";
 import LineColumnsLayout from "layouts/LineColumnsLayout";
 import React from "react";
-import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
-import {
-  HiArrowNarrowLeft,
-  HiArrowNarrowRight,
-  HiOutlineArrowSmLeft,
-  HiOutlineArrowSmRight,
-} from "react-icons/hi";
+import { HiArrowNarrowLeft, HiArrowNarrowRight } from "react-icons/hi";
 import pxToEm from "utils/pxToEm";
 import pxToRem from "utils/pxToRem";
 
