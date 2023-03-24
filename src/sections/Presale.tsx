@@ -42,7 +42,7 @@ function Presale() {
                 </Text>
 
                 <BaseButton
-                  buttonType="half-border"
+                  buttonType="simple"
                   rightIcon={
                     <HiOutlineArrowSmRight
                       className="_icon"
