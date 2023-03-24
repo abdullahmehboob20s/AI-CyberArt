@@ -4,8 +4,6 @@ import PreSaleBox from "components/PreSaleBox";
 import PresalePoint from "components/PresalePoint";
 import LineColumnsLayout from "layouts/LineColumnsLayout";
 import React from "react";
-import { HiOutlineArrowSmRight } from "react-icons/hi";
-import pxToEm from "utils/pxToEm";
 import pxToRem from "utils/pxToRem";
 
 function Presale() {
@@ -42,18 +40,9 @@ function Presale() {
                 </Text>
 
                 <BaseButton
-                  buttonType="simple"
-                  rightIcon={
-                    <HiOutlineArrowSmRight
-                      className="_icon"
-                      fontSize={pxToEm(23)}
-                    />
-                  }
+                  buttonType="right-arrow-button"
                   sx={{
-                    height: pxToEm(50),
                     fontSize: pxToRem(18),
-                    display: "flex",
-                    alignItems: "center",
                   }}
                 >
                   Learn More
