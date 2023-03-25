@@ -1,8 +1,9 @@
-import { Box, Container, Heading, Stack } from "@chakra-ui/react";
+import { Box, Container, Stack } from "@chakra-ui/react";
 import BaseButton from "components/BaseButton";
 import ProductCard from "components/ProductCard";
 import ProductCards from "components/ProductCards";
 import ProductMainCard from "components/ProductMainCard";
+import Title from "components/Title";
 import LineColumnsLayout from "layouts/LineColumnsLayout";
 import React from "react";
 import { HiArrowNarrowLeft, HiArrowNarrowRight } from "react-icons/hi";
@@ -44,9 +45,9 @@ function Products() {
               alignItems="center"
               justifyContent="space-between"
             >
-              <Heading fontFamily="organT800" fontSize={pxToRem(48)}>
+              <Title mb={0} textAlign="left">
                 Products
-              </Heading>
+              </Title>
 
               <Stack direction="row" spacing={pxToRem(20)}>
                 <BaseButton

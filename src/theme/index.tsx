@@ -106,8 +106,10 @@ const theme = extendTheme({
       primary: "#0F0F11",
       secondary: "#16161A",
       grayish: "#202024",
+      grayish2: "#222225",
       grey: "#3B3B3D",
     },
+    activeOrange: "#C73D19",
   },
 });
 

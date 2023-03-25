@@ -8,6 +8,11 @@ import Presale from "sections/Presale";
 import Products from "sections/Products";
 import Whitepaper from "sections/Whitepaper";
 import React from "react";
+import WhyToChoose from "sections/WhyToChoose";
+import HowToBuy from "sections/HowToBuy";
+import pxToRem from "utils/pxToRem";
+import NeedMoreHelp from "components/NeedMoreHelp";
+import FAQ from "sections/FAQ";
 
 function Index() {
   return (
@@ -23,7 +28,20 @@ function Index() {
       <Whitepaper />
       <Products />
 
-      <Box bg="black.primary"></Box>
+      <Box bg="black.primary">
+        <Box mb={pxToRem(180)}>
+          <WhyToChoose />
+        </Box>
+        <Box mb={pxToRem(180)}>
+          <HowToBuy />
+        </Box>
+        <Box mb={pxToRem(180)}>
+          <NeedMoreHelp />
+        </Box>
+        <Box mb={pxToRem(180)}>
+          <FAQ />
+        </Box>
+      </Box>
     </Box>
   );
 }
